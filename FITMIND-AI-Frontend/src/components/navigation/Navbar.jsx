@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header className="navbar navbar-expand-lg bg-white border-bottom">
       <div className="container">
-        <Link className="navbar-brand fw-semibold" to={ROUTES.HOME}>FitMind</Link>
+        <Link className="navbar-brand fw-semibold" to={ROUTES.HOME}>FITMANTRA</Link>
         <button type="button" className="navbar-toggler" onClick={() => setOpen(!open)}
           aria-expanded={open} aria-controls="main-nav" aria-label="Toggle navigation">
           {open ? <X size={22} /> : <Menu size={22} />}
